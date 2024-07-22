@@ -12,6 +12,7 @@ public class Es2 {
         String oggetto = (scanner.nextLine());
 
         System.out.printf("La frase uscita è : " + nome + " " + azione + " " + oggetto);
+        System.out.printf("La frase inversa è : " + oggetto + " " + azione + " " + nome);
 
         scanner.close();
     }
